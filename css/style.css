@@ -1,0 +1,96 @@
+html,
+body {
+  height: 100%;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  /*padding: 0 0 60px;*/
+}
+
+.navbar {
+	font-family: Tangerine;
+	font-size: x-large;
+}
+
+.navbar-brand {
+	font-size: 70px;
+}
+
+.navbar-nav > .active {
+	font-weight: bold;
+}
+/* Set the fixed height of the footer here */
+#footer {
+	position:fixed;
+   	left:0px;
+   	bottom:0px;
+   	width:100%;
+   	height:50px;
+	background-color: #101010;
+}
+
+#wrap > .container {
+  padding: 60px 15px 0;
+}
+
+.container .credit {
+  margin: 15px 0;
+ text-align: center;
+}
+
+.container #footerFont {
+	font-family: Tangerine;
+	font-size: 24px;
+}
+
+.spaceTitle {
+	margin-bottom: 7px;
+}
+
+.container img {
+  height: 180px;
+  width: 280px;
+  margin-bottom: .7em;
+}
+
+.imgPrev {
+  height: inherit;
+  width: 100%;
+}
+/*
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+*/
+.subHeader {
+	font-family: Shadows Into Light, cursive;
+	font-size:35px;
+	margin-left: 4px";
+}
+
+.subHeader > a {
+	color: black;
+}
+
+.pager {
+	font-size: 12px;
+}
+
+.btn-group .flagImg {
+	width: 17px;
+	height: 17px;
+	margin-top: 18px;
+}
+
+/*auto complete */
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; cursor: default; overflow: auto; -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>Bingkai Qt - grid</title>
+		<meta name="description" content="">
+		<meta name="author" content="Ismail Muhamad">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="css/bootstrap.css"/>
+		<link rel="stylesheet" href="css/font-awesome.css"/>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Shadows+Into+Light&effect=shadow-multiple">
+		<!-- <link rel="stylesheet" href="css/bootstrap-theme.css"/> -->
+	</head>
+
+	<body>
+		<input type="hidden" id="hidLang" value="id" />
+		<div id="wrap">
+			<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand font-effect-shadow-multiple" href="#">Bingkai Qt</a>
+					</div>
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+								<a href="#"><span id="home">Home</span></a>
+							</li>
+							<li class="active">
+								<a href="index.html"><span id="grid">Grid</span></a>
+							</li>
+							<li>
+								<a href="slider.html"><span id="slider">Slider</span></a>
+							</li>
+							<li>
+								<a href="#about"><span id="about">Tentang</span></a>
+							</li>
+							<li>
+								<div class="btn-group">
+									 <a href="#" id="flagId"><img class="flagImg" src="images/id.png"></a>
+									 <a id="flagEn" href="#"><img class="flagImg" src="images/en.png"></a>
+									</div>
+							</li>
+						</ul>
+					</div><!--/.nav-collapse -->
+				</div><!-- /.container -->
+			</div><!-- /.navbar -->
+
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-6 col-sm-3">
+						<i class="fa fa-camera-retro fa-2x"> <span class="subHeader"><a id="explan" href="http://id.wikipedia.org/wiki/Indonesia" target="_blank">Indonesia</a></span> </i>
+					</div>
+					<div class="col-xs-6 col-sm-3"></div>
+					<div class="col-xs-6 col-sm-3"></div>
+					<div class="col-xs-6 col-sm-3">
+						<div class="input-group">
+							<input class="form-control" id="searchRegion" type="text" placeholder="Cari">
+							<!-- <span class="input-group-addon"><i class="fa fa-search fa-fw"></i></span> -->
+							<span class="input-group-btn"><button class="btn btn-primary" type="button"><i class="fa fa-search fa-fw"></i></button></span>
+						</div>
+					</div>
+				</div>
+				<div class="spaceTitle"></div>
+				<div class="row">
+					<div class="col-xs-6 col-sm-3">
+						<a href="#"><img src="images/1.jpg" alt="1" class="img-thumbnail"></a>
+					</div>
+					<div class="col-xs-6 col-sm-3">
+						<a href="#"><img src="images/2.jpg" alt="1" class="img-thumbnail"></a>
+					</div>
+					<div class="col-xs-6 col-sm-3">
+						<a href="#"><img src="images/3.jpg" alt="1" class="img-thumbnail"></a>
+					</div>
+					<div class="col-xs-6 col-sm-3">
+						<a href="#"><img src="images/4.jpg" alt="1" class="img-thumbnail"></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-sm-3">
+						<a href="#"><img src="images/1.jpg" alt="1" class="img-thumbnail"></a>
+					</div>
+					<div class="col-xs-6 col-sm-3">
+						<a href="#"><img src="images/2.jpg" alt="1" class="img-thumbnail"></a>
+					</div>
+					<div class="col-xs-6 col-sm-3">
+						<a href="#"><img src="images/3.jpg" alt="1" class="img-thumbnail"></a>
+					</div>
+					<div class="col-xs-6 col-sm-3">
+						<a href="#"><img src="images/4.jpg" alt="1" class="img-thumbnail"></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-sm-3">
+						<ul class="pager">
+							<li class="previous disabled">
+								<a href="#">&larr; <span id="prev">Sebelumnya</span></a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-xs-6 col-sm-3"></div>
+					<div class="col-xs-6 col-sm-3"></div>
+					<div class="col-xs-6 col-sm-3">
+						<ul class="pager">
+							<li class="next">
+								<a href="#"><span id="next">Berikutnya</span> &rarr;</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div><!-- /.warp -->
+		<div id="footer" class="hidden-xs">
+			<div class="container">
+				<p class="text-muted credit">
+					<span id="footerFont">BingkaiQt</span> &copy; 2013
+				</p>
+			</div>
+		</div>
+		<div class="modal fade" id="myModal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<p>
+							<img src='images/1.jpg' alt='1' title='wow keren' class='imgPrev'>
+						</p>
+					</div>
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+							&times;
+						</button>
+						<h5 class="modal-title">Gambar 1</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mockjax.js"></script>
+		<script type="text/javascript" src="js/jquery.autocomplete.min.js"></script>
+		<script type="text/javascript" src="js/region.js"></script>
+		<script type="text/javascript" src="js/id.js"></script>
+		<script type="text/javascript" src="js/en.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				//set globalization
+				setLocale($("#hidLang").val());
+				
+				$("#flagId").click(function() {
+					$("#hidLang").val("id");
+					setLocale($("#hidLang").val());
+				});
+				
+				$("#flagEn").click(function() {
+					$("#hidLang").val("en");
+					setLocale($("#hidLang").val());
+				});
+				
+				$(".img-thumbnail").click(function() {
+					//console.log($(this).attr("src"));
+					$(".imgPrev").attr("src", $(this).attr("src"));
+					$('#myModal').modal({
+						keyboard : true
+					});
+				});
+
+				var countriesArray = $.map(countries, function(value, key) {
+					return {
+						value : value,
+						data : key
+					};
+				});
+				
+				$('#searchRegion').autocomplete({
+					lookup : countriesArray,
+					minChars : 1 //ketik 2 karakter,langsung keluar combo
+				});
+
+			});
+		</script>
+	</body>
+</html>
